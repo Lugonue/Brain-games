@@ -4,5 +4,5 @@ console.log("Welcome to the Brain Games!");
 export const userName = () =>  {
     
     var inputUserName = readlineSync.question('May I have your name? ');
-    return 'Hello, ' + inputUserName + '!';
+    return console.log('Hello, ' + inputUserName + '!');
 } 
