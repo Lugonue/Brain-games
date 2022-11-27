@@ -7,3 +7,7 @@ publish:
 	npm publish --dry-run
 test:
 	npx eslint .
+push_commit:
+	git add .
+	git commit
+	git push
