@@ -18,7 +18,7 @@ export const questionAboutEven = () => {
             }
             return questionAboutEven();
         } else {
-            return console.log(`'no or somthing' is wrong answer ;(. Correct answer was 'yes'.
+            return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'yes'.
             Let's try again, ${userName}!`);
         }
     } else {
@@ -30,7 +30,7 @@ export const questionAboutEven = () => {
             }
             return questionAboutEven();
         } else {
-            return console.log(`'yes or somthing' is wrong answer ;(. Correct answer was 'no'.
+            return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no'.
             Let's try again, ${userName}!`)
         }
     }

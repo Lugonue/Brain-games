@@ -9,3 +9,6 @@ Calc:
 
 gcd:
     https://asciinema.org/a/lSvZsxOCd29Ejz3JRSVGVF9Pw
+
+progression:
+    https://asciinema.org/a/TVyVWwIubX5HmuSERjtHVwdw2

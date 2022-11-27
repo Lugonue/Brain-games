@@ -9,12 +9,12 @@ export const inputName = () => {
 
 export const getRandom = (items) => {
     if (Array.isArray(items)) {
-        var item = items[Math.floor(Math.random()*items.length)];
-        return item;
+        const itemOfQuestion = items[Math.floor(Math.random()*items.length)];
+        return itemOfQuestion;
     }
     if (Number.isInteger(items)) {
-        var item = Math.floor(Math.random()*items);
-        return item;
+        const itemOfQuestion = Math.floor(Math.random()*items);
+        return itemOfQuestion;
     }
 }
 
