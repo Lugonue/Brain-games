@@ -3,6 +3,7 @@ import readlineSync from 'readline-sync';
 
 const userName = inputName();
 let countOfQuestion = 0;
+console.log('What number is missing in the progression?');
 export const gameProgression = () => {
     const startProgression = getRandom(20);
     const emptyElementId = getRandom(9);
@@ -10,7 +11,6 @@ export const gameProgression = () => {
     const emptyElement = progression[emptyElementId];
     progression[emptyElementId] = '..';
     progression = progression.join(' '); 
-    console.log('What number is missing in the progression?');
     console.log(`Qestion: ${progression}`);
     var userAnswer = readlineSync.question(`Your answer: `);
     console.log(`Youre answer: ${userAnswer}`);
