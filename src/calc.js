@@ -36,7 +36,7 @@ export const expressionCalc = () => {
         return console.log(`Question: ${caseOfQuestion}
         Youre answer: ${userAnswer}
         '${userAnswer}' is wrong answer ;(. Correct answer was '${resultOfCalc}'.
-        let's try again, ${userName}!`);
+        Let's try again, ${userName}!`);
     }
 
 }
