@@ -6,7 +6,7 @@ console.log('Answer "yes" if the number is even, otherwise answer "no"');
 let countOfQuestion = 0;
 export const questionAboutEven = () => {
     const caseOfQuestion = getRandom(100);
-    console.log(`Qestion: ${caseOfQuestion}`);
+    console.log(`Question: ${caseOfQuestion}`);
     var userAnswer = readlineSync.question(`Your answer: `);
     console.log(`Youre answer: ${userAnswer}`)
     if (caseOfQuestion % 2 === 0) {

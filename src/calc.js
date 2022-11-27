@@ -22,7 +22,7 @@ export const expressionCalc = () => {
     const c = getRandom(operator);
     const caseOfQuestion = `${a} ${c} ${b}`;
     const resultOfCalc = calcCalc(a,b,c);
-    console.log(`Qestion: ${caseOfQuestion}`);
+    console.log(`Question: ${caseOfQuestion}`);
     var userAnswer = readlineSync.question(`Your answer: `);
     console.log(`Youre answer: ${userAnswer}`)
     if (resultOfCalc == userAnswer) {
@@ -33,7 +33,7 @@ export const expressionCalc = () => {
         }
         return expressionCalc();
     } else {
-        return console.log(`Qestion: ${caseOfQuestion}
+        return console.log(`Question: ${caseOfQuestion}
         Youre answer: ${userAnswer}
         '${userAnswer}' is wrong answer ;(. Correct answer was '${resultOfCalc}'.
         let's try again, ${userName}!`);

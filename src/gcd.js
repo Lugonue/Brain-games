@@ -8,7 +8,7 @@ export const gameGdc = (firstItem, secondItem) => {
     const a = getRandom(firstItem);
     const b = getRandom(secondItem);
     const correctAnswer = greatestDevisor(a, b);
-    console.log(`Qestion: ${a} ${b}`);
+    console.log(`Question: ${a} ${b}`);
     var userAnswer = readlineSync.question(`Your answer: `);
     console.log(`Youre answer: ${userAnswer}`);
     if (correctAnswer == userAnswer) {

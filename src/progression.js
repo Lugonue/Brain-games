@@ -11,7 +11,7 @@ export const gameProgression = () => {
     const emptyElement = progression[emptyElementId];
     progression[emptyElementId] = '..';
     progression = progression.join(' '); 
-    console.log(`Qestion: ${progression}`);
+    console.log(`Question: ${progression}`);
     var userAnswer = readlineSync.question(`Your answer: `);
     console.log(`Youre answer: ${userAnswer}`);
         if (userAnswer == emptyElement) {
@@ -22,7 +22,7 @@ export const gameProgression = () => {
         }
         return gameProgression();
     } else {
-        console.log(`Qestion: ${progression}`);
+        console.log(`Question: ${progression}`);
         console.log(`Youre answer: ${userAnswer}`);
         console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${emptyElement}'.`);
         console.log(`Let's try again, ${userName}!`)
