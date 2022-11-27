@@ -6,7 +6,10 @@ const userName = inputName();
 let countOfQuestion = 0;
 console.log(`Answer "yes" if given number is prime. Otherwise answer "no".`);
 export const gamePrime = () => {
-    const num1 = getRandom(50);
+    let num1 = getRandom(50);
+    if (num1 === 0) {
+        num1 += 1;
+    }
     const correctAnswer = isPrimary(num1);
     console.log(`Question: ${num1}`);
     const userAnswer = readlineSync.question(`Your answer: `);
