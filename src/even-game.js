@@ -14,7 +14,7 @@ export const questionAboutEven = () => {
             countOfQuestion += 1;
             console.log(`Correct!`);
             if (countOfQuestion === 3) {
-                return `Congratulations, ${userName}!`
+                return console.log(`Congratulations, ${userName}!`);
             }
             return questionAboutEven();
         } else {
