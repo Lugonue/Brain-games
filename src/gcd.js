@@ -5,10 +5,10 @@ const userName = inputName();
 console.log('Find the greatest common divisor of given numbers.');
 let countOfQuestion = 0;
 export const gameGdc = (firstItem, secondItem) => {
-    const a = getRandom(firstItem);
-    const b = getRandom(secondItem);
-    const correctAnswer = greatestDevisor(a, b);
-    console.log(`Question: ${a} ${b}`);
+    let num1 = getRandom(firstItem);
+    const num2 = getRandom(secondItem);
+    const correctAnswer = greatestDevisor(num1, num2);
+    console.log(`Question: ${num1} ${num2}`);
     var userAnswer = readlineSync.question(`Your answer: `);
     console.log(`Youre answer: ${userAnswer}`);
     if (correctAnswer == userAnswer) {
@@ -18,7 +18,7 @@ export const gameGdc = (firstItem, secondItem) => {
             return console.log(`Congratulations, ${userName}!`)
         }
         return gameGdc(firstItem, secondItem);
-    } else { return console.log(`Qestion: ${a} ${b}
+    } else { return console.log(`Qestion: ${num1} ${num2}
         Youre answer: ${userAnswer}
         '${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.
         Let's try again, ${userName}!`);

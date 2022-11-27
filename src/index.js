@@ -14,7 +14,7 @@ export const getRandom = (items) => {
     }
     if (Number.isInteger(items)) {
         const itemOfQuestion = Math.floor(Math.random()*items);
-        return itemOfQuestion;
+        return itemOfQuestion === 0 ? itemOfQuestion + 1 : itemOfQuestion;
     }
 }
 
