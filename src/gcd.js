@@ -18,11 +18,10 @@ export const gameGdc = (firstItem, secondItem) => {
             return console.log(`Congratulations, ${userName}!`)
         }
         return gameGdc(firstItem, secondItem);
-    } else {
-        console.log(`Qestion: ${a} ${b}`);
-        console.log(`Youre answer: ${userAnswer}`);
-        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-        console.log(`Let's try again, ${userName}!`)
+    } else { return console.log(`Qestion: ${a} ${b}
+        Youre answer: ${userAnswer}
+        '${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.
+        Let's try again, ${userName}!`);
 
     }
 

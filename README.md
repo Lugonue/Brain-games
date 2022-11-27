@@ -12,3 +12,6 @@ gcd:
 
 progression:
     https://asciinema.org/a/TVyVWwIubX5HmuSERjtHVwdw2
+
+prime: 
+    https://asciinema.org/a/IHADOXpFfycgUUJhSmGC5F3Sc
