@@ -30,7 +30,7 @@ const questionAboutEven = () => {
     return questionAboutEven();
   }
   return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no'.
-            Let's try again, ${userName}!`);
+  Let's try again, ${userName}!`);
 };
 
 export default questionAboutEven;

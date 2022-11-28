@@ -22,7 +22,7 @@ const gameProgression = () => {
   console.log(`Question: ${progression}`);
   const userAnswer = readlineSync.question('Your answer: ');
   console.log(`Youre answer: ${userAnswer}`);
-  if (userAnswer === Number(emptyElement)) {
+  if (Number(userAnswer) === emptyElement) {
     console.log('Correct!');
     countOfQuestion += 1;
     if (countOfQuestion === 3) {
