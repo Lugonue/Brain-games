@@ -9,3 +9,5 @@ push_commit:
 	git add .
 	git commit
 	git push
+test:
+	npx eslint --no-eslintrc --config .eslintrc.yml --fix .

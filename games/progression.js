@@ -1,13 +1,6 @@
 import readlineSync from 'readline-sync';
-import { getRandom, inputName } from './index.js';
-
-const makeProgression = (firstItemProgression) => {
-  const stackOfProgression = [];
-  for (let i = firstItemProgression; i <= firstItemProgression + 9; i += 1) {
-    stackOfProgression.push(i);
-  }
-  return stackOfProgression;
-};
+import { getRandom, inputName } from '../src/index.js';
+import makeProgression from '../src/makeProgression.js';
 
 const userName = inputName();
 let countOfQuestion = 0;

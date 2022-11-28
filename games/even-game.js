@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getRandom, inputName } from './index.js';
+import { getRandom, inputName } from '../src/index.js';
 
 const userName = inputName();
 console.log('Answer "yes" if the number is even, otherwise answer "no"');
@@ -19,7 +19,7 @@ const questionAboutEven = () => {
       return questionAboutEven();
     }
     return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'yes'.
-            Let's try again, ${userName}!`);
+    Let's try again, ${userName}!`);
   }
   if (userAnswer === 'no') {
     countOfQuestion += 1;
