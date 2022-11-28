@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { expressionCalc } from "../src/calc.js";
+import gameCalc from '../src/calc.js';
 
-expressionCalc();
+gameCalc();
