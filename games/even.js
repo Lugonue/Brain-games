@@ -3,15 +3,15 @@ import {
 } from '../src/index.js';
 import isEven from '../src/isEven.js';
 
-const userName = inputName();
-console.log('Answer "yes" if the number is even, otherwise answer "no"');
-let countOfQuestion = 0;
 const gameEven = () => {
+  const userName = inputName();
+  console.log('Answer "yes" if the number is even, otherwise answer "no"');
+  let countOfQuestion = 0;
   while (countOfQuestion < 3) {
     const question = testQuestion(100);
-    const correctAnswer = isEven(question);
+    const correct = isEven(question);
     const userAnswer = printAnswer();
-    countOfQuestion += testAnswer(userAnswer, correctAnswer, question, userName, countOfQuestion);
+    countOfQuestion += testAnswer(userName, question, correct, userAnswer, countOfQuestion);
   }
 };
 

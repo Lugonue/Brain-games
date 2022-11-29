@@ -16,7 +16,7 @@ const gameProgression = () => {
     console.log(`Question: ${progr}`);
     const userAnswer = Number(readlineSync.question('Your answer: '));
     console.log(`Youre answer: ${userAnswer}`);
-    countOfQuestion += testAnswer(userAnswer, correctAnswer, progr, userName, countOfQuestion);
+    countOfQuestion += testAnswer(userName, progr, correctAnswer, userAnswer, countOfQuestion);
   }
 };
 

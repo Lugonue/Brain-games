@@ -28,7 +28,7 @@ export const printAnswer = () => {
   console.log(`Youre answer: ${userAnswer}`);
   return userAnswer;
 };
-export const testAnswer = (userAnswer, correctAnswer, question, userName, countOfQuestion) => {
+export const testAnswer = (userName, question, correctAnswer, userAnswer, countOfQuestion) => {
   if (userAnswer === correctAnswer) {
     console.log('Correct!');
     if (countOfQuestion === 2) {
