@@ -14,7 +14,7 @@ const gameGdc = (firstItem, secondItem) => {
     console.log(`Question: ${question}`);
     const userAnswer = Number(readlineSync.question('Your answer: '));
     console.log(`Youre answer: ${userAnswer}`);
-    countOfQuestion += testAnswer(userAnswer, correctAnswer, question, userName, countOfQuestion);
+    countOfQuestion += testAnswer(userName, question, correctAnswer, userAnswer, countOfQuestion);
   }
 };
 
