@@ -8,7 +8,7 @@ console.log('What number is missing in the progression?');
 const gameProgression = () => {
   while (countOfQuestion < 3) {
     const startProgression = getRandom(1, 20);
-    const emptyElementId = getRandom(1, 10);
+    const emptyElementId = getRandom(1, 9);
     let progr = makeProgression(startProgression);
     const correctAnswer = progr[emptyElementId];
     progr[emptyElementId] = '..';
