@@ -5,10 +5,10 @@ import { getRandom, inputName, testAnswer } from '../src/index.js';
 const userName = inputName();
 console.log('Find the greatest common divisor of given numbers.');
 let countOfQuestion = 0;
-const gameGdc = (firstItem, secondItem) => {
+const gameGdc = (min, max) => {
   while (countOfQuestion < 3) {
-    const num1 = getRandom(firstItem) === 0 ? 1 : getRandom(firstItem);
-    const num2 = getRandom(secondItem) === 0 ? 1 : getRandom(secondItem);
+    const num1 = getRandom(min, max);
+    const num2 = getRandom(min, max);
     const question = `${num1} ${num2}`;
     const correctAnswer = greatestDivisor(num1, num2);
     console.log(`Question: ${question}`);

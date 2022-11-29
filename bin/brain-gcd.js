@@ -2,4 +2,4 @@
 
 import gameGdc from '../games/gcd.js';
 
-gameGdc(20, 20);
+gameGdc(1, 30);

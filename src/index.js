@@ -7,19 +7,15 @@ export const inputName = () => {
   return userName;
 };
 
-export const getRandom = (items) => {
-  if (Array.isArray(items)) {
-    const itemOfQuestion = items[Math.floor(Math.random() * items.length)];
-    return itemOfQuestion;
-  }
-  if (Number.isInteger(items)) {
-    return Math.floor(Math.random() * items);
-  }
-  return NaN;
+export const getRandomOperator = (items) => {
+  const itemOfQuestion = items[Math.floor(Math.random() * items.length)];
+  return itemOfQuestion;
 };
 
-export const testQuestion = (range) => {
-  const question = getRandom(range);
+export const getRandom = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+
+export const testQuestion = (min, max) => {
+  const question = getRandom(min, max);
   console.log(`Question: ${question}`);
   return question;
 };
