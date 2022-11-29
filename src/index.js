@@ -13,8 +13,7 @@ export const getRandom = (items) => {
     return itemOfQuestion;
   }
   if (Number.isInteger(items)) {
-    const itemOfQuestion = Math.floor(Math.random() * items);
-    return itemOfQuestion === 0 ? itemOfQuestion + 1 : itemOfQuestion;
+    return Math.floor(Math.random() * items);
   }
   return NaN;
 };

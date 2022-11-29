@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import greatestDevisor from '../src/greatestDevisor.js';
+import greatestDivisor from '../src/greatestDivisor.js';
 import { getRandom, inputName, testAnswer } from '../src/index.js';
 
 const userName = inputName();
@@ -10,7 +10,7 @@ const gameGdc = (firstItem, secondItem) => {
     const num1 = getRandom(firstItem);
     const num2 = getRandom(secondItem);
     const question = `${num1} ${num2}`;
-    const correctAnswer = greatestDevisor(num1, num2);
+    const correctAnswer = greatestDivisor(num1, num2);
     console.log(`Question: ${question}`);
     const userAnswer = Number(readlineSync.question('Your answer: '));
     console.log(`Youre answer: ${userAnswer}`);
