@@ -18,6 +18,16 @@ export const getRandom = (items) => {
   return NaN;
 };
 
+export const testQuestion = (range) => {
+  const question = getRandom(range);
+  console.log(`Question: ${question}`);
+  return question;
+};
+export const printAnswer = () => {
+  const userAnswer = readlineSync.question('Your answer: ');
+  console.log(`Youre answer: ${userAnswer}`);
+  return userAnswer;
+};
 export const testAnswer = (userAnswer, correctAnswer, question, userName, countOfQuestion) => {
   if (userAnswer === correctAnswer) {
     console.log('Correct!');
