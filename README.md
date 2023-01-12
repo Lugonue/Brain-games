@@ -1,19 +1,32 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Lugonue/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Lugonue/frontend-project-44/actions)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/1d43a367bec1dd86dcd4/maintainability)](https://codeclimate.com/github/Lugonue/frontend-project-44/maintainability)
+## Start
 
-even?:
+$ make install
+
+## Start games:
+$ brain-even // Четное-нечетное
+$ brain-calc // Выражение двух чисел
+$ brain-gcd // Наименьший общий делитель
+$ brain-progression // Отсутствующий компонент прогрессии
+$ brain-prime // Просто ли число?
+
+
+
+
+### Asciinema
+brain-even:
     https://asciinema.org/a/i0oBoVeb34qXgd7DksSLWvVNN
 
-Calc:
+brain-calc:
     https://asciinema.org/a/aXYE5QdoMms4TebIrCe4wIkk4
 
-gcd:
+brain-gcd:
     https://asciinema.org/a/lSvZsxOCd29Ejz3JRSVGVF9Pw
 
-progression:
+brain-progression:
     https://asciinema.org/a/TVyVWwIubX5HmuSERjtHVwdw2
 
-prime: 
+brain-prime: 
     https://asciinema.org/a/IHADOXpFfycgUUJhSmGC5F3Sc
