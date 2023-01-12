@@ -36,10 +36,10 @@ $ make install
     [![asciicast](https://asciinema.org/a/aXYE5QdoMms4TebIrCe4wIkk4.svg)](https://asciinema.org/a/aXYE5QdoMms4TebIrCe4wIkk4)
 
 - brain-gcd:   
-   [![asciicast](https://asciinema.org/a/lSvZsxOCd29Ejz3JRSVGVF9Pw.svg)](https://asciinema.org/a/lSvZsxOCd29Ejz3JRSVGVF9Pw)
+   [![asciicast](https://asciinema.org/connect/c6da46c0-509c-44a9-98f9-43f6ef709ac6.svg)](https://asciinema.org/connect/c6da46c0-509c-44a9-98f9-43f6ef709ac6)
 
 - brain-progression:   
-    [![asciicast](https://asciinema.org/a/TVyVWwIubX5HmuSERjtHVwdw2.svg)](https://asciinema.org/a/TVyVWwIubX5HmuSERjtHVwdw2)
+    [![asciicast](https://asciinema.org/connect/c6da46c0-509c-44a9-98f9-43f6ef709ac6.svg)](https://asciinema.org/connect/c6da46c0-509c-44a9-98f9-43f6ef709ac6)
 
 - brain-prime:    
-    [![asciicast](https://asciinema.org/a/IHADOXpFfycgUUJhSmGC5F3Sc.svg)](https://asciinema.org/a/IHADOXpFfycgUUJhSmGC5F3Sc)
+    [![asciicast](https://asciinema.org/connect/c6da46c0-509c-44a9-98f9-43f6ef709ac6.svg)](https://asciinema.org/connect/c6da46c0-509c-44a9-98f9-43f6ef709ac6)
