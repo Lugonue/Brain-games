@@ -6,11 +6,11 @@
 $ make install
 
 ## Start games:
-$ brain-even // Четное-нечетное
-$ brain-calc // Выражение двух чисел
-$ brain-gcd // Наименьший общий делитель
-$ brain-progression // Отсутствующий компонент прогрессии
-$ brain-prime // Просто ли число?
+- $ brain-even // Четное-нечетное
+- $ brain-calc // Выражение двух чисел
+- $ brain-gcd // Наименьший общий делитель
+- $ brain-progression // Отсутствующий компонент прогрессии
+- $ brain-prime // Просто ли число?
 
 
 
