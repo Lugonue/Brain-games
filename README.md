@@ -31,14 +31,11 @@ $ make install
 ### Asciinema
 - brain-even:   
 [![asciicast](https://asciinema.org/a/i0oBoVeb34qXgd7DksSLWvVNN.svg)](https://asciinema.org/a/i0oBoVeb34qXgd7DksSLWvVNN)
-- brain-calc:   
+- brain-calc:  
 [![asciicast](https://asciinema.org/a/aXYE5QdoMms4TebIrCe4wIkk4.svg)](https://asciinema.org/a/aXYE5QdoMms4TebIrCe4wIkk4)
-
-- brain-gcd:   
+- brain-gcd:  
 [![asciicast](https://asciinema.org/a/wle3E2T3ULPxOctzlLD0H3ndY.svg)](https://asciinema.org/a/wle3E2T3ULPxOctzlLD0H3ndY)
-
-- brain-progression:   
+- brain-progression:  
 [![asciicast](https://asciinema.org/a/MYeKnfWmOsBLHl7bD0Xt1Yf4C.svg)](https://asciinema.org/a/MYeKnfWmOsBLHl7bD0Xt1Yf4C)
-
-- brain-prime:    
+- brain-prime:  
 [![asciicast](https://asciinema.org/a/X2U7tYOjpSiaSlejdJBxjsj9F.svg)](https://asciinema.org/a/X2U7tYOjpSiaSlejdJBxjsj9F)
