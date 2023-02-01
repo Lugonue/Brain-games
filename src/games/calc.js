@@ -19,7 +19,7 @@ const makeRound = () => {
   const b = getRandom(1, 10);
   const c = operators[Math.floor(Math.random() * operators.length)];
   const question = `${a} ${c} ${b}`;
-  const correctAnswer = resultCalculation(a, b, c);
+  const correctAnswer = String(resultCalculation(a, b, c));
   return [question, correctAnswer];
 };
 
