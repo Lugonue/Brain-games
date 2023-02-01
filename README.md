@@ -9,20 +9,25 @@ $ git clone [repository]
 $ make install
 ```
 ## Start games:
+You get question and should take answer "yes" if number in question is even or "no" if number in question is  not even.
 ```bash
-- $ brain-even // Четное-нечетное
+$ brain-even 
 ``` 
+You get a question in the form of an expression of two numbers and must write the result of the expression in the answer
 ```bash
-- $ brain-calc // Выражение двух чисел
+$ brain-calc 
 ```
+You get a question in the form of a pair of numbers . In the answer, you must specify the smallest common divisor of the presented pair
 ```bash
-- $ brain-gcd // Наименьший общий делитель
+$ brain-gcd
 ```
+You get a question in the form of a progression with a missing value. In response, write down the missing value
 ```bash
-- $ brain-progression // Отсутствующий компонент прогрессии
+$ brain-progression 
 ```
+you get a question in the form of a number. Write in the answer "yes" if the number is prime and "no" if the number is not prime
 ```bash
-- $ brain-prime // Простоe ли число?
+$ brain-prime
 ```
 
 
